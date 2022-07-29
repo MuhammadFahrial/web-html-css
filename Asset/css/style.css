@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=K2D:wght@100&family=Syne&display=swap');
+
+:root {
+    --nav-font: 'Inter', sans-serif;
+    --title-font: 'K2D', sans-serif;
+    --desk-font: 'Syne', sans-serif;
+
+    --bg-color: #723637;
+    --font-color: #E9DCBE;
+}
+
+html {
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    top: 0;
+    z-index: 1;
+    position: sticky;
+}
+
+.container-nav {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.nav-item ul {
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+}
+
+.nav-item ul li a:hover {
+    background-color: #723637;
+    color: white;
+}
+
+.nav-item ul li a {
+    padding: 1rem;
+    color: var(--bg-color);
+    font-family: var(--desk-font);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container-home {
+    background-color: #723637;
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 6rem;
+    margin-right: 2rem;
+}
+
+.logo img {
+    width: 4rem;
+}
+
+.foto {
+    margin-right: 3rem;
+}
+
+.foto img {
+    width: 20rem;
+}
+
+.deskrip {
+    color: #E9DCBE;
+    margin-top: 6rem;
+}
+
+.deskrip h4 {
+    color: white;
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1rem;
+}
+
+.deskrip h2 {
+    font-family: var(--desk-font);
+    font-weight: 600;
+    font-size: 42px;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+
+.deskrip p {
+    color: white;
+    font-family: var(--title-font);
+    padding-top: 0.5rem;
+    font-size: 18px;
+    width: 31rem;
+}
+
+.deskrip p a {
+    line-height: 6rem;
+    padding: 16px;
+    background-color: var(--font-color);
+    color: var(--bg-color);
+    border-radius: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container-about h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #723637;
+    font-size: 46px;
+}
+
+.container-about p {
+    width: 1100px;
+    margin: auto;
+    font-family: var(--desk-font);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.container-work {
+    text-align: center;
+    background-color: var(--bg-color);
+    height: 730px;
+}
+
+.container-work h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--font-color);
+    font-size: 46px;
+}
+
+.container-contact {
+    height: 400px;
+}
+
+#contact {
+    margin-top: 30px;
+}
+
+.container-contact h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: var(--bg-color);
+    font-size: 46px;
+}
+
+form input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    width: 15rem;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px 50px 5px 50px;
+    background: rgb(192, 77, 77);
+    border: none;
+    color: white;
+}
+
+.contact {
+    display: inline-block;
+    margin-bottom: 7rem;
+}
+
+.container-contact {
+    margin-left: 20rem;
+    float: left;
+}
+
+.maps {
+    float: right;
+    margin-right: 5rem;
+}
+
+.copyright {
+    width: 100%;
+    position: absolute;
+    background-color: var(--bg-color);
+}
+
+/* @media screen and (max-width: 600px) {} */
